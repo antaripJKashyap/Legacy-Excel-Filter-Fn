@@ -1,0 +1,35 @@
+Sub Macro1()
+'
+' Macro1 Macro
+'
+' Keyboard Shortcut: Ctrl+o
+'
+'
+' OBtest3 Macro
+'
+' Keyboard Shortcut: Ctrl+Shift+O
+'
+    Dim stringVal As String
+    Dim parsedVals() As String
+    Dim endStrNum As Integer
+    
+    stringVal = ActiveCell.Value
+    
+    parsedVals = Split(stringVal, ",")
+    endStrNum = UBound(parsedVals) + 1
+    
+    Dim i As Integer
+    i = 0
+    Dim currString As Variant
+    
+    For Each currString In parsedVals
+        ActiveCell.Offset(i + 1, 0).Value = currString
+        i = i + 1
+    Next currString
+    
+    If Not UBound(parsedVals) = -1 Then
+        ActiveCell.Offset(-1, 0).Value = UBound(parsedVals)
+    Else
+        ActiveCell.Offset(-1, 0).Value = 0
+    End If
+End Sub

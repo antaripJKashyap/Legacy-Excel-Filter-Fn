@@ -1,0 +1,427 @@
+Sub render_all()
+'
+' render_all Macro
+'
+' Keyboard Shortcut: Ctrl+p
+'
+    Range("C23:C37").Select
+    Selection.ClearContents
+    Range("C22").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("E23:E37").Select
+    Selection.ClearContents
+    Range("E22").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("G23:G37").Select
+    Selection.ClearContents
+    Range("G22").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("I23:I37").Select
+    Selection.ClearContents
+    Range("I22").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("K23:K37").Select
+    Selection.ClearContents
+    Range("K22").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("M23:M37").Select
+    Selection.ClearContents
+    Range("M22").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("O23:O37").Select
+    Selection.ClearContents
+    Range("O22").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("Q23:Q37").Select
+    Selection.ClearContents
+    Range("Q22").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    ' set 2
+    
+    Range("C41:C48").Select
+    Selection.ClearContents
+    Range("C40").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("E41:E48").Select
+    Selection.ClearContents
+    Range("E40").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("G41:G48").Select
+    Selection.ClearContents
+    Range("G40").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("I41:I48").Select
+    Selection.ClearContents
+    Range("I40").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("K41:K48").Select
+    Selection.ClearContents
+    Range("K40").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("M41:M48").Select
+    Selection.ClearContents
+    Range("M40").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("O41:O48").Select
+    Selection.ClearContents
+    Range("O40").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("Q41:Q48").Select
+    Selection.ClearContents
+    Range("Q40").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    ' set 3
+    
+    Range("C52:C66").Select
+    Selection.ClearContents
+    Range("C51").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("E52:E66").Select
+    Selection.ClearContents
+    Range("E51").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("G52:G66").Select
+    Selection.ClearContents
+    Range("G51").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("I52:I66").Select
+    Selection.ClearContents
+    Range("I51").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("K52:K66").Select
+    Selection.ClearContents
+    Range("K51").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("M52:M66").Select
+    Selection.ClearContents
+    Range("M51").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("O52:O66").Select
+    Selection.ClearContents
+    Range("O51").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("Q52:Q66").Select
+    Selection.ClearContents
+    Range("Q51").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    ' set 4
+    
+    Range("C70:C74").Select
+    Selection.ClearContents
+    Range("C69").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("E70:E74").Select
+    Selection.ClearContents
+    Range("E69").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("G70:G74").Select
+    Selection.ClearContents
+    Range("G69").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("I70:I74").Select
+    Selection.ClearContents
+    Range("I69").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("K70:K74").Select
+    Selection.ClearContents
+    Range("K69").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("M70:M74").Select
+    Selection.ClearContents
+    Range("M69").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("O70:O74").Select
+    Selection.ClearContents
+    Range("O69").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("Q70:Q74").Select
+    Selection.ClearContents
+    Range("Q69").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    ' set 5
+    
+    ' set 6
+    
+    Range("C85:C88").Select
+    Selection.ClearContents
+    Range("C84").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("E85:E88").Select
+    Selection.ClearContents
+    Range("E84").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("G85:G88").Select
+    Selection.ClearContents
+    Range("G84").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("I85:I88").Select
+    Selection.ClearContents
+    Range("I84").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("K85:K88").Select
+    Selection.ClearContents
+    Range("K84").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("M85:M88").Select
+    Selection.ClearContents
+    Range("M84").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("O85:O88").Select
+    Selection.ClearContents
+    Range("O84").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("Q85:Q88").Select
+    Selection.ClearContents
+    Range("Q84").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    'set 7
+    
+    Range("C92:C113").Select
+    Selection.ClearContents
+    Range("C91").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("E92:E113").Select
+    Selection.ClearContents
+    Range("E91").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("G92:G113").Select
+    Selection.ClearContents
+    Range("G91").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("I92:I113").Select
+    Selection.ClearContents
+    Range("I91").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("K92:K113").Select
+    Selection.ClearContents
+    Range("K91").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("M92:M113").Select
+    Selection.ClearContents
+    Range("M91").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("O92:O113").Select
+    Selection.ClearContents
+    Range("O91").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("Q92:Q113").Select
+    Selection.ClearContents
+    Range("Q91").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    'set 8
+    
+    Range("C117:C120").Select
+    Selection.ClearContents
+    Range("C116").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("E117:E120").Select
+    Selection.ClearContents
+    Range("E116").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("G117:G120").Select
+    Selection.ClearContents
+    Range("G116").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("I117:I120").Select
+    Selection.ClearContents
+    Range("I116").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("K117:K120").Select
+    Selection.ClearContents
+    Range("K116").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("M117:M120").Select
+    Selection.ClearContents
+    Range("M116").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("O117:O120").Select
+    Selection.ClearContents
+    Range("O116").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("Q117:Q120").Select
+    Selection.ClearContents
+    Range("Q116").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    'set 9
+    
+    Range("C124:C135").Select
+    Selection.ClearContents
+    Range("C123").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("E124:E135").Select
+    Selection.ClearContents
+    Range("E123").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("G124:G135").Select
+    Selection.ClearContents
+    Range("G123").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("I124:I135").Select
+    Selection.ClearContents
+    Range("I123").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("K124:K135").Select
+    Selection.ClearContents
+    Range("K123").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("M124:M135").Select
+    Selection.ClearContents
+    Range("M123").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("O124:O135").Select
+    Selection.ClearContents
+    Range("O123").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("Q124:Q135").Select
+    Selection.ClearContents
+    Range("Q123").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    'set 10
+    
+    Range("C139:C145").Select
+    Selection.ClearContents
+    Range("C138").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("E139:E145").Select
+    Selection.ClearContents
+    Range("E138").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("G139:G145").Select
+    Selection.ClearContents
+    Range("G138").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("I139:I145").Select
+    Selection.ClearContents
+    Range("I138").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("K139:K145").Select
+    Selection.ClearContents
+    Range("K138").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("M139:M145").Select
+    Selection.ClearContents
+    Range("M138").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("O139:O145").Select
+    Selection.ClearContents
+    Range("O138").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("Q139:Q145").Select
+    Selection.ClearContents
+    Range("Q138").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    'set 11
+    
+    Range("C149:C167").Select
+    Selection.ClearContents
+    Range("C148").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("E149:E167").Select
+    Selection.ClearContents
+    Range("E148").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("G149:G167").Select
+    Selection.ClearContents
+    Range("G148").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("I149:I167").Select
+    Selection.ClearContents
+    Range("I148").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("K149:K167").Select
+    Selection.ClearContents
+    Range("K148").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("M149:M167").Select
+    Selection.ClearContents
+    Range("M148").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("O149:O167").Select
+    Selection.ClearContents
+    Range("O148").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+    Range("Q149:Q167").Select
+    Selection.ClearContents
+    Range("Q148").Select
+    Application.Run "'00_Rig Allocation_Jul-2023_Master.xlsm'!Macro1"
+    
+End Sub
