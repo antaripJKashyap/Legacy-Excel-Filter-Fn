@@ -1,0 +1,45 @@
+Function FNENUM(var1 As Range) As Integer
+
+'sample cell for purpose of iteration
+    Dim cell As Range
+    
+    'the resultant array
+    Dim output() As Variant
+    Dim resString As String
+    
+    
+    'integer that tracks the size of result array
+    Dim i As Integer
+    i = 0
+    
+    ' Step1- check each specified cell in range by iterating through specified range
+    For Each cell In var1
+    
+        ' Step2- check specified condition in this case is empty or not
+        
+        
+        ' !!! CHANGE for a different filter condition !!!
+        
+        If cell.Value <> "" Then
+        
+        
+            ' Resize the array, and add the new value
+            ' Do not make changes, could lead to memory errors...
+            
+            ReDim Preserve output(1 To i + 1)
+            output(i + 1) = cell.Value
+            i = i + 1
+            hasEntered = True
+            
+        End If
+    Next cell
+    
+    If Not hasEntered Then
+        FNENUM = 0
+        Exit Function
+    End If
+    
+    FNENUM = UBound(output)
+    
+End Function
+

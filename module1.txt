@@ -1,0 +1,63 @@
+Function FILTERNOTEMPTY(var1 As Range) As String
+
+    'sample cell for purpose of iteration
+    Dim cell As Range
+    
+    'the resultant array
+    Dim output() As Variant
+    Dim resString As String
+    Dim isFirst As Boolean
+    Dim hasEntered As Boolean
+    hasEntered = False
+    isFirst = True
+    
+    If var1.Cells.Count = 0 Then
+        FILTERNOTEMPTY = ""
+        Exit Function
+    End If
+    
+    
+    'integer that tracks the size of result array
+    Dim i As Integer
+    i = 0
+    
+    ' Step1- check each specified cell in range by iterating through specified range
+    For Each cell In var1
+        ' Step2- check specified condition in this case is empty or not
+        ' !!! CHANGE for a different filter condition !!!
+        
+        If cell.Value <> "" Then
+            ' Resize the array, and add the new value
+            ' Do not make changes, could lead to memory errors...
+            ReDim Preserve output(1 To i + 1)
+            output(i + 1) = cell.Value
+            i = i + 1
+            hasEntered = True
+        End If
+    Next cell
+    
+    If Not hasEntered Then
+        FILTERNOTEMPTY = ""
+        Exit Function
+    End If
+    
+    ' Concatonate all results of the array to a singular string
+    For a = 1 To UBound(output)
+        If Not IsEmpty(output(a)) Then
+            If isFirst Then
+                resString = output(a)
+                isFirst = False
+            Else
+                resString = resString & "," & output(a)
+            End If
+        End If
+    Next a
+    resString = resString & ","
+    
+    
+    
+    FILTERNOTEMPTY = resString
+    ' Call filterHelper
+    'Application.Transpose (result)
+
+End Function
